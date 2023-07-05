@@ -1,0 +1,20 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 81:81
+    volumes:
+      - .:/var/www/html
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - 8000:81
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./nginx/logs:/var/log/nginx
+    depends_on:
+      - app

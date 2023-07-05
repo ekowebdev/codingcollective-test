@@ -1,0 +1,723 @@
+2023/07/05 12:13:56 [notice] 1#1: using the "epoll" event method
+2023/07/05 12:13:56 [notice] 1#1: nginx/1.25.1
+2023/07/05 12:13:56 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/05 12:13:56 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/05 12:13:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/05 12:13:56 [notice] 1#1: start worker processes
+2023/07/05 12:13:56 [notice] 1#1: start worker process 20
+2023/07/05 12:13:56 [notice] 1#1: start worker process 21
+2023/07/05 12:13:56 [notice] 1#1: start worker process 22
+2023/07/05 12:13:56 [notice] 1#1: start worker process 23
+2023/07/05 12:13:56 [notice] 1#1: start worker process 24
+2023/07/05 12:13:56 [notice] 1#1: start worker process 25
+2023/07/05 12:13:56 [notice] 1#1: start worker process 26
+2023/07/05 12:13:56 [notice] 1#1: start worker process 27
+2023/07/05 12:18:43 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/05 12:18:43 [notice] 22#22: gracefully shutting down
+2023/07/05 12:18:43 [notice] 26#26: gracefully shutting down
+2023/07/05 12:18:43 [notice] 21#21: gracefully shutting down
+2023/07/05 12:18:43 [notice] 23#23: gracefully shutting down
+2023/07/05 12:18:43 [notice] 20#20: gracefully shutting down
+2023/07/05 12:18:43 [notice] 27#27: gracefully shutting down
+2023/07/05 12:18:43 [notice] 25#25: gracefully shutting down
+2023/07/05 12:18:43 [notice] 24#24: gracefully shutting down
+2023/07/05 12:18:43 [notice] 22#22: exiting
+2023/07/05 12:18:43 [notice] 26#26: exiting
+2023/07/05 12:18:43 [notice] 21#21: exiting
+2023/07/05 12:18:43 [notice] 23#23: exiting
+2023/07/05 12:18:43 [notice] 20#20: exiting
+2023/07/05 12:18:43 [notice] 27#27: exiting
+2023/07/05 12:18:43 [notice] 25#25: exiting
+2023/07/05 12:18:43 [notice] 24#24: exiting
+2023/07/05 12:18:43 [notice] 22#22: exit
+2023/07/05 12:18:43 [notice] 26#26: exit
+2023/07/05 12:18:43 [notice] 21#21: exit
+2023/07/05 12:18:43 [notice] 23#23: exit
+2023/07/05 12:18:43 [notice] 20#20: exit
+2023/07/05 12:18:43 [notice] 27#27: exit
+2023/07/05 12:18:43 [notice] 25#25: exit
+2023/07/05 12:18:43 [notice] 24#24: exit
+2023/07/05 12:18:44 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/07/05 12:18:44 [notice] 1#1: worker process 21 exited with code 0
+2023/07/05 12:18:44 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 12:18:44 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/07/05 12:18:44 [notice] 1#1: worker process 20 exited with code 0
+2023/07/05 12:18:44 [notice] 1#1: worker process 24 exited with code 0
+2023/07/05 12:18:44 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 12:18:44 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/07/05 12:18:44 [notice] 1#1: worker process 22 exited with code 0
+2023/07/05 12:18:44 [notice] 1#1: worker process 23 exited with code 0
+2023/07/05 12:18:44 [notice] 1#1: worker process 26 exited with code 0
+2023/07/05 12:18:44 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 12:18:44 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/07/05 12:18:44 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/07/05 12:18:44 [notice] 1#1: worker process 27 exited with code 0
+2023/07/05 12:18:44 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 12:18:44 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/07/05 12:18:44 [notice] 1#1: worker process 25 exited with code 0
+2023/07/05 12:18:44 [notice] 1#1: exit
+2023/07/05 12:18:49 [notice] 1#1: using the "epoll" event method
+2023/07/05 12:18:49 [notice] 1#1: nginx/1.25.1
+2023/07/05 12:18:49 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/05 12:18:49 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/05 12:18:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/05 12:18:49 [notice] 1#1: start worker processes
+2023/07/05 12:18:49 [notice] 1#1: start worker process 21
+2023/07/05 12:18:49 [notice] 1#1: start worker process 22
+2023/07/05 12:18:49 [notice] 1#1: start worker process 23
+2023/07/05 12:18:49 [notice] 1#1: start worker process 24
+2023/07/05 12:18:49 [notice] 1#1: start worker process 25
+2023/07/05 12:18:49 [notice] 1#1: start worker process 26
+2023/07/05 12:18:49 [notice] 1#1: start worker process 27
+2023/07/05 12:18:49 [notice] 1#1: start worker process 28
+2023/07/05 12:28:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/05 12:28:36 [notice] 21#21: gracefully shutting down
+2023/07/05 12:28:36 [notice] 22#22: gracefully shutting down
+2023/07/05 12:28:36 [notice] 23#23: gracefully shutting down
+2023/07/05 12:28:36 [notice] 25#25: gracefully shutting down
+2023/07/05 12:28:36 [notice] 27#27: gracefully shutting down
+2023/07/05 12:28:36 [notice] 26#26: gracefully shutting down
+2023/07/05 12:28:36 [notice] 28#28: gracefully shutting down
+2023/07/05 12:28:36 [notice] 26#26: exiting
+2023/07/05 12:28:36 [notice] 24#24: gracefully shutting down
+2023/07/05 12:28:36 [notice] 21#21: exiting
+2023/07/05 12:28:36 [notice] 22#22: exiting
+2023/07/05 12:28:36 [notice] 23#23: exiting
+2023/07/05 12:28:36 [notice] 25#25: exiting
+2023/07/05 12:28:36 [notice] 27#27: exiting
+2023/07/05 12:28:36 [notice] 26#26: exit
+2023/07/05 12:28:36 [notice] 28#28: exiting
+2023/07/05 12:28:36 [notice] 24#24: exiting
+2023/07/05 12:28:36 [notice] 21#21: exit
+2023/07/05 12:28:36 [notice] 22#22: exit
+2023/07/05 12:28:36 [notice] 23#23: exit
+2023/07/05 12:28:36 [notice] 25#25: exit
+2023/07/05 12:28:36 [notice] 27#27: exit
+2023/07/05 12:28:36 [notice] 28#28: exit
+2023/07/05 12:28:36 [notice] 24#24: exit
+2023/07/05 12:28:37 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/07/05 12:28:37 [notice] 1#1: worker process 22 exited with code 0
+2023/07/05 12:28:37 [notice] 1#1: worker process 23 exited with code 0
+2023/07/05 12:28:37 [notice] 1#1: worker process 24 exited with code 0
+2023/07/05 12:28:37 [notice] 1#1: worker process 27 exited with code 0
+2023/07/05 12:28:37 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 12:28:37 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/07/05 12:28:37 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/07/05 12:28:37 [notice] 1#1: worker process 21 exited with code 0
+2023/07/05 12:28:37 [notice] 1#1: worker process 26 exited with code 0
+2023/07/05 12:28:37 [notice] 1#1: worker process 28 exited with code 0
+2023/07/05 12:28:37 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 12:28:37 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/07/05 12:28:37 [notice] 1#1: worker process 25 exited with code 0
+2023/07/05 12:28:37 [notice] 1#1: exit
+2023/07/05 12:28:42 [notice] 1#1: using the "epoll" event method
+2023/07/05 12:28:42 [notice] 1#1: nginx/1.25.1
+2023/07/05 12:28:42 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/05 12:28:42 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/05 12:28:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/05 12:28:42 [notice] 1#1: start worker processes
+2023/07/05 12:28:42 [notice] 1#1: start worker process 20
+2023/07/05 12:28:42 [notice] 1#1: start worker process 21
+2023/07/05 12:28:42 [notice] 1#1: start worker process 22
+2023/07/05 12:28:42 [notice] 1#1: start worker process 23
+2023/07/05 12:28:42 [notice] 1#1: start worker process 24
+2023/07/05 12:28:42 [notice] 1#1: start worker process 25
+2023/07/05 12:28:42 [notice] 1#1: start worker process 26
+2023/07/05 12:28:42 [notice] 1#1: start worker process 27
+2023/07/05 12:44:01 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/05 12:44:01 [notice] 20#20: gracefully shutting down
+2023/07/05 12:44:01 [notice] 21#21: gracefully shutting down
+2023/07/05 12:44:01 [notice] 22#22: gracefully shutting down
+2023/07/05 12:44:01 [notice] 27#27: gracefully shutting down
+2023/07/05 12:44:01 [notice] 26#26: gracefully shutting down
+2023/07/05 12:44:01 [notice] 24#24: gracefully shutting down
+2023/07/05 12:44:01 [notice] 23#23: gracefully shutting down
+2023/07/05 12:44:01 [notice] 25#25: gracefully shutting down
+2023/07/05 12:44:01 [notice] 22#22: exiting
+2023/07/05 12:44:01 [notice] 21#21: exiting
+2023/07/05 12:44:01 [notice] 24#24: exiting
+2023/07/05 12:44:01 [notice] 20#20: exiting
+2023/07/05 12:44:01 [notice] 27#27: exiting
+2023/07/05 12:44:01 [notice] 26#26: exiting
+2023/07/05 12:44:01 [notice] 23#23: exiting
+2023/07/05 12:44:01 [notice] 25#25: exiting
+2023/07/05 12:44:01 [notice] 21#21: exit
+2023/07/05 12:44:01 [notice] 20#20: exit
+2023/07/05 12:44:01 [notice] 24#24: exit
+2023/07/05 12:44:01 [notice] 27#27: exit
+2023/07/05 12:44:01 [notice] 22#22: exit
+2023/07/05 12:44:01 [notice] 26#26: exit
+2023/07/05 12:44:01 [notice] 23#23: exit
+2023/07/05 12:44:01 [notice] 25#25: exit
+2023/07/05 12:44:01 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/07/05 12:44:01 [notice] 1#1: worker process 27 exited with code 0
+2023/07/05 12:44:01 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 12:44:01 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/07/05 12:44:01 [notice] 1#1: worker process 24 exited with code 0
+2023/07/05 12:44:01 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 12:44:01 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/07/05 12:44:01 [notice] 1#1: worker process 20 exited with code 0
+2023/07/05 12:44:01 [notice] 1#1: worker process 21 exited with code 0
+2023/07/05 12:44:01 [notice] 1#1: worker process 22 exited with code 0
+2023/07/05 12:44:01 [notice] 1#1: worker process 23 exited with code 0
+2023/07/05 12:44:01 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 12:44:01 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/07/05 12:44:02 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/07/05 12:44:02 [notice] 1#1: worker process 25 exited with code 0
+2023/07/05 12:44:02 [notice] 1#1: worker process 26 exited with code 0
+2023/07/05 12:44:02 [notice] 1#1: exit
+2023/07/05 12:49:34 [notice] 1#1: using the "epoll" event method
+2023/07/05 12:49:34 [notice] 1#1: nginx/1.25.1
+2023/07/05 12:49:34 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/05 12:49:34 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/05 12:49:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/05 12:49:34 [notice] 1#1: start worker processes
+2023/07/05 12:49:34 [notice] 1#1: start worker process 20
+2023/07/05 12:49:34 [notice] 1#1: start worker process 21
+2023/07/05 12:49:34 [notice] 1#1: start worker process 22
+2023/07/05 12:49:34 [notice] 1#1: start worker process 23
+2023/07/05 12:49:34 [notice] 1#1: start worker process 24
+2023/07/05 12:49:34 [notice] 1#1: start worker process 25
+2023/07/05 12:49:34 [notice] 1#1: start worker process 26
+2023/07/05 12:49:34 [notice] 1#1: start worker process 27
+2023/07/05 13:29:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/05 13:29:34 [notice] 21#21: gracefully shutting down
+2023/07/05 13:29:34 [notice] 26#26: gracefully shutting down
+2023/07/05 13:29:34 [notice] 23#23: gracefully shutting down
+2023/07/05 13:29:34 [notice] 27#27: gracefully shutting down
+2023/07/05 13:29:34 [notice] 24#24: gracefully shutting down
+2023/07/05 13:29:34 [notice] 21#21: exiting
+2023/07/05 13:29:35 [notice] 22#22: gracefully shutting down
+2023/07/05 13:29:34 [notice] 26#26: exiting
+2023/07/05 13:29:35 [notice] 22#22: exiting
+2023/07/05 13:29:34 [notice] 26#26: exit
+2023/07/05 13:29:34 [notice] 20#20: gracefully shutting down
+2023/07/05 13:29:34 [notice] 25#25: gracefully shutting down
+2023/07/05 13:29:34 [notice] 27#27: exiting
+2023/07/05 13:29:34 [notice] 24#24: exiting
+2023/07/05 13:29:34 [notice] 25#25: exiting
+2023/07/05 13:29:34 [notice] 23#23: exiting
+2023/07/05 13:29:34 [notice] 23#23: exit
+2023/07/05 13:29:34 [notice] 21#21: exit
+2023/07/05 13:29:35 [notice] 22#22: exit
+2023/07/05 13:29:34 [notice] 24#24: exit
+2023/07/05 13:29:34 [notice] 20#20: exiting
+2023/07/05 13:29:34 [notice] 25#25: exit
+2023/07/05 13:29:34 [notice] 27#27: exit
+2023/07/05 13:29:34 [notice] 20#20: exit
+2023/07/05 13:29:37 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/07/05 13:29:37 [notice] 1#1: worker process 27 exited with code 0
+2023/07/05 13:29:37 [notice] 1#1: worker process 20 exited with code 0
+2023/07/05 13:29:37 [notice] 1#1: worker process 21 exited with code 0
+2023/07/05 13:29:37 [notice] 1#1: worker process 22 exited with code 0
+2023/07/05 13:29:37 [notice] 1#1: worker process 23 exited with code 0
+2023/07/05 13:29:37 [notice] 1#1: worker process 25 exited with code 0
+2023/07/05 13:29:37 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/07/05 13:29:37 [notice] 1#1: worker process 24 exited with code 0
+2023/07/05 13:29:37 [notice] 1#1: worker process 26 exited with code 0
+2023/07/05 13:29:38 [notice] 1#1: exit
+2023/07/05 13:36:08 [notice] 1#1: using the "epoll" event method
+2023/07/05 13:36:08 [notice] 1#1: nginx/1.25.1
+2023/07/05 13:36:08 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/05 13:36:08 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/05 13:36:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/05 13:36:08 [notice] 1#1: start worker processes
+2023/07/05 13:36:08 [notice] 1#1: start worker process 20
+2023/07/05 13:36:08 [notice] 1#1: start worker process 21
+2023/07/05 13:36:08 [notice] 1#1: start worker process 22
+2023/07/05 13:36:08 [notice] 1#1: start worker process 23
+2023/07/05 13:36:08 [notice] 1#1: start worker process 24
+2023/07/05 13:36:08 [notice] 1#1: start worker process 25
+2023/07/05 13:36:08 [notice] 1#1: start worker process 26
+2023/07/05 13:36:08 [notice] 1#1: start worker process 27
+2023/07/05 13:48:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/05 13:48:06 [notice] 20#20: gracefully shutting down
+2023/07/05 13:48:06 [notice] 21#21: gracefully shutting down
+2023/07/05 13:48:06 [notice] 22#22: gracefully shutting down
+2023/07/05 13:48:06 [notice] 24#24: gracefully shutting down
+2023/07/05 13:48:06 [notice] 23#23: gracefully shutting down
+2023/07/05 13:48:06 [notice] 25#25: gracefully shutting down
+2023/07/05 13:48:06 [notice] 26#26: gracefully shutting down
+2023/07/05 13:48:06 [notice] 27#27: gracefully shutting down
+2023/07/05 13:48:06 [notice] 20#20: exiting
+2023/07/05 13:48:06 [notice] 21#21: exiting
+2023/07/05 13:48:06 [notice] 22#22: exiting
+2023/07/05 13:48:06 [notice] 24#24: exiting
+2023/07/05 13:48:06 [notice] 23#23: exiting
+2023/07/05 13:48:06 [notice] 25#25: exiting
+2023/07/05 13:48:06 [notice] 26#26: exiting
+2023/07/05 13:48:06 [notice] 25#25: exit
+2023/07/05 13:48:06 [notice] 27#27: exiting
+2023/07/05 13:48:06 [notice] 24#24: exit
+2023/07/05 13:48:06 [notice] 23#23: exit
+2023/07/05 13:48:06 [notice] 21#21: exit
+2023/07/05 13:48:06 [notice] 20#20: exit
+2023/07/05 13:48:06 [notice] 26#26: exit
+2023/07/05 13:48:06 [notice] 22#22: exit
+2023/07/05 13:48:06 [notice] 27#27: exit
+2023/07/05 13:48:06 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/07/05 13:48:06 [notice] 1#1: worker process 25 exited with code 0
+2023/07/05 13:48:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 13:48:06 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/07/05 13:48:06 [notice] 1#1: worker process 22 exited with code 0
+2023/07/05 13:48:06 [notice] 1#1: worker process 23 exited with code 0
+2023/07/05 13:48:06 [notice] 1#1: worker process 24 exited with code 0
+2023/07/05 13:48:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 13:48:06 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/07/05 13:48:06 [notice] 1#1: worker process 26 exited with code 0
+2023/07/05 13:48:06 [notice] 1#1: worker process 27 exited with code 0
+2023/07/05 13:48:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 13:48:06 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/07/05 13:48:06 [notice] 1#1: worker process 21 exited with code 0
+2023/07/05 13:48:06 [notice] 1#1: worker process 20 exited with code 0
+2023/07/05 13:48:06 [notice] 1#1: exit
+2023/07/05 13:48:13 [notice] 1#1: using the "epoll" event method
+2023/07/05 13:48:13 [notice] 1#1: nginx/1.25.1
+2023/07/05 13:48:13 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/05 13:48:13 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/05 13:48:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/05 13:48:13 [notice] 1#1: start worker processes
+2023/07/05 13:48:13 [notice] 1#1: start worker process 20
+2023/07/05 13:48:13 [notice] 1#1: start worker process 21
+2023/07/05 13:48:13 [notice] 1#1: start worker process 22
+2023/07/05 13:48:13 [notice] 1#1: start worker process 23
+2023/07/05 13:48:13 [notice] 1#1: start worker process 24
+2023/07/05 13:48:13 [notice] 1#1: start worker process 25
+2023/07/05 13:48:13 [notice] 1#1: start worker process 26
+2023/07/05 13:48:13 [notice] 1#1: start worker process 27
+2023/07/05 13:51:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/05 13:51:52 [notice] 20#20: gracefully shutting down
+2023/07/05 13:51:52 [notice] 21#21: gracefully shutting down
+2023/07/05 13:51:52 [notice] 22#22: gracefully shutting down
+2023/07/05 13:51:52 [notice] 25#25: gracefully shutting down
+2023/07/05 13:51:52 [notice] 23#23: gracefully shutting down
+2023/07/05 13:51:52 [notice] 27#27: gracefully shutting down
+2023/07/05 13:51:52 [notice] 24#24: gracefully shutting down
+2023/07/05 13:51:52 [notice] 27#27: exiting
+2023/07/05 13:51:52 [notice] 26#26: gracefully shutting down
+2023/07/05 13:51:52 [notice] 20#20: exiting
+2023/07/05 13:51:52 [notice] 21#21: exiting
+2023/07/05 13:51:52 [notice] 22#22: exiting
+2023/07/05 13:51:52 [notice] 25#25: exiting
+2023/07/05 13:51:52 [notice] 23#23: exiting
+2023/07/05 13:51:52 [notice] 24#24: exiting
+2023/07/05 13:51:52 [notice] 27#27: exit
+2023/07/05 13:51:52 [notice] 26#26: exiting
+2023/07/05 13:51:52 [notice] 20#20: exit
+2023/07/05 13:51:52 [notice] 21#21: exit
+2023/07/05 13:51:52 [notice] 22#22: exit
+2023/07/05 13:51:52 [notice] 25#25: exit
+2023/07/05 13:51:52 [notice] 23#23: exit
+2023/07/05 13:51:52 [notice] 24#24: exit
+2023/07/05 13:51:52 [notice] 26#26: exit
+2023/07/05 13:51:53 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/07/05 13:51:53 [notice] 1#1: worker process 23 exited with code 0
+2023/07/05 13:51:53 [notice] 1#1: worker process 24 exited with code 0
+2023/07/05 13:51:53 [notice] 1#1: worker process 25 exited with code 0
+2023/07/05 13:51:53 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 13:51:53 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/07/05 13:51:53 [notice] 1#1: worker process 22 exited with code 0
+2023/07/05 13:51:53 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 13:51:53 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/07/05 13:51:53 [notice] 1#1: worker process 21 exited with code 0
+2023/07/05 13:51:53 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 13:51:53 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/07/05 13:51:53 [notice] 1#1: worker process 27 exited with code 0
+2023/07/05 13:51:53 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 13:51:53 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/07/05 13:51:53 [notice] 1#1: worker process 20 exited with code 0
+2023/07/05 13:51:53 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 13:51:53 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/07/05 13:51:53 [notice] 1#1: worker process 26 exited with code 0
+2023/07/05 13:51:53 [notice] 1#1: exit
+2023/07/05 13:51:58 [notice] 1#1: using the "epoll" event method
+2023/07/05 13:51:58 [notice] 1#1: nginx/1.25.1
+2023/07/05 13:51:58 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/05 13:51:58 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/05 13:51:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/05 13:51:58 [notice] 1#1: start worker processes
+2023/07/05 13:51:58 [notice] 1#1: start worker process 20
+2023/07/05 13:51:58 [notice] 1#1: start worker process 21
+2023/07/05 13:51:58 [notice] 1#1: start worker process 22
+2023/07/05 13:51:58 [notice] 1#1: start worker process 23
+2023/07/05 13:51:58 [notice] 1#1: start worker process 24
+2023/07/05 13:51:58 [notice] 1#1: start worker process 25
+2023/07/05 13:51:58 [notice] 1#1: start worker process 26
+2023/07/05 13:51:58 [notice] 1#1: start worker process 27
+2023/07/05 13:53:40 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/05 13:53:40 [notice] 21#21: gracefully shutting down
+2023/07/05 13:53:40 [notice] 20#20: gracefully shutting down
+2023/07/05 13:53:40 [notice] 22#22: gracefully shutting down
+2023/07/05 13:53:40 [notice] 23#23: gracefully shutting down
+2023/07/05 13:53:40 [notice] 24#24: gracefully shutting down
+2023/07/05 13:53:40 [notice] 26#26: gracefully shutting down
+2023/07/05 13:53:40 [notice] 27#27: gracefully shutting down
+2023/07/05 13:53:40 [notice] 25#25: gracefully shutting down
+2023/07/05 13:53:40 [notice] 21#21: exiting
+2023/07/05 13:53:40 [notice] 20#20: exiting
+2023/07/05 13:53:40 [notice] 22#22: exiting
+2023/07/05 13:53:40 [notice] 23#23: exiting
+2023/07/05 13:53:40 [notice] 24#24: exiting
+2023/07/05 13:53:40 [notice] 26#26: exiting
+2023/07/05 13:53:40 [notice] 27#27: exiting
+2023/07/05 13:53:40 [notice] 25#25: exiting
+2023/07/05 13:53:40 [notice] 21#21: exit
+2023/07/05 13:53:40 [notice] 20#20: exit
+2023/07/05 13:53:40 [notice] 22#22: exit
+2023/07/05 13:53:40 [notice] 23#23: exit
+2023/07/05 13:53:40 [notice] 24#24: exit
+2023/07/05 13:53:40 [notice] 26#26: exit
+2023/07/05 13:53:40 [notice] 27#27: exit
+2023/07/05 13:53:40 [notice] 25#25: exit
+2023/07/05 13:53:40 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/07/05 13:53:40 [notice] 1#1: worker process 25 exited with code 0
+2023/07/05 13:53:40 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 13:53:40 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/07/05 13:53:40 [notice] 1#1: worker process 22 exited with code 0
+2023/07/05 13:53:40 [notice] 1#1: worker process 23 exited with code 0
+2023/07/05 13:53:40 [notice] 1#1: worker process 26 exited with code 0
+2023/07/05 13:53:40 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 13:53:40 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/07/05 13:53:40 [notice] 1#1: worker process 27 exited with code 0
+2023/07/05 13:53:40 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 13:53:40 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/07/05 13:53:40 [notice] 1#1: worker process 20 exited with code 0
+2023/07/05 13:53:40 [notice] 1#1: worker process 21 exited with code 0
+2023/07/05 13:53:40 [notice] 1#1: worker process 24 exited with code 0
+2023/07/05 13:53:40 [notice] 1#1: exit
+2023/07/05 13:53:44 [notice] 1#1: using the "epoll" event method
+2023/07/05 13:53:44 [notice] 1#1: nginx/1.25.1
+2023/07/05 13:53:44 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/05 13:53:44 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/05 13:53:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/05 13:53:44 [notice] 1#1: start worker processes
+2023/07/05 13:53:44 [notice] 1#1: start worker process 20
+2023/07/05 13:53:44 [notice] 1#1: start worker process 21
+2023/07/05 13:53:44 [notice] 1#1: start worker process 22
+2023/07/05 13:53:44 [notice] 1#1: start worker process 23
+2023/07/05 13:53:44 [notice] 1#1: start worker process 24
+2023/07/05 13:53:44 [notice] 1#1: start worker process 25
+2023/07/05 13:53:44 [notice] 1#1: start worker process 26
+2023/07/05 13:53:44 [notice] 1#1: start worker process 27
+2023/07/05 13:57:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/05 13:57:29 [notice] 20#20: gracefully shutting down
+2023/07/05 13:57:29 [notice] 22#22: gracefully shutting down
+2023/07/05 13:57:29 [notice] 21#21: gracefully shutting down
+2023/07/05 13:57:29 [notice] 24#24: gracefully shutting down
+2023/07/05 13:57:29 [notice] 23#23: gracefully shutting down
+2023/07/05 13:57:29 [notice] 26#26: gracefully shutting down
+2023/07/05 13:57:29 [notice] 25#25: gracefully shutting down
+2023/07/05 13:57:29 [notice] 27#27: gracefully shutting down
+2023/07/05 13:57:29 [notice] 20#20: exiting
+2023/07/05 13:57:29 [notice] 22#22: exiting
+2023/07/05 13:57:29 [notice] 21#21: exiting
+2023/07/05 13:57:29 [notice] 24#24: exiting
+2023/07/05 13:57:29 [notice] 23#23: exiting
+2023/07/05 13:57:29 [notice] 26#26: exiting
+2023/07/05 13:57:29 [notice] 26#26: exit
+2023/07/05 13:57:29 [notice] 25#25: exiting
+2023/07/05 13:57:29 [notice] 25#25: exit
+2023/07/05 13:57:29 [notice] 27#27: exiting
+2023/07/05 13:57:29 [notice] 20#20: exit
+2023/07/05 13:57:29 [notice] 22#22: exit
+2023/07/05 13:57:29 [notice] 21#21: exit
+2023/07/05 13:57:29 [notice] 24#24: exit
+2023/07/05 13:57:29 [notice] 23#23: exit
+2023/07/05 13:57:29 [notice] 27#27: exit
+2023/07/05 13:57:29 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/07/05 13:57:29 [notice] 1#1: worker process 20 exited with code 0
+2023/07/05 13:57:29 [notice] 1#1: worker process 21 exited with code 0
+2023/07/05 13:57:29 [notice] 1#1: worker process 22 exited with code 0
+2023/07/05 13:57:29 [notice] 1#1: worker process 25 exited with code 0
+2023/07/05 13:57:29 [notice] 1#1: worker process 26 exited with code 0
+2023/07/05 13:57:29 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 13:57:29 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/07/05 13:57:29 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/07/05 13:57:29 [notice] 1#1: worker process 23 exited with code 0
+2023/07/05 13:57:29 [notice] 1#1: worker process 24 exited with code 0
+2023/07/05 13:57:29 [notice] 1#1: worker process 27 exited with code 0
+2023/07/05 13:57:29 [notice] 1#1: exit
+2023/07/05 14:02:09 [notice] 1#1: using the "epoll" event method
+2023/07/05 14:02:09 [notice] 1#1: nginx/1.25.1
+2023/07/05 14:02:09 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/05 14:02:09 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/05 14:02:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/05 14:02:09 [notice] 1#1: start worker processes
+2023/07/05 14:02:09 [notice] 1#1: start worker process 20
+2023/07/05 14:02:09 [notice] 1#1: start worker process 21
+2023/07/05 14:02:09 [notice] 1#1: start worker process 22
+2023/07/05 14:02:09 [notice] 1#1: start worker process 23
+2023/07/05 14:02:09 [notice] 1#1: start worker process 24
+2023/07/05 14:02:09 [notice] 1#1: start worker process 25
+2023/07/05 14:02:09 [notice] 1#1: start worker process 26
+2023/07/05 14:02:09 [notice] 1#1: start worker process 27
+2023/07/05 14:21:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/05 14:21:42 [notice] 21#21: gracefully shutting down
+2023/07/05 14:21:42 [notice] 20#20: gracefully shutting down
+2023/07/05 14:21:42 [notice] 22#22: gracefully shutting down
+2023/07/05 14:21:42 [notice] 23#23: gracefully shutting down
+2023/07/05 14:21:42 [notice] 26#26: gracefully shutting down
+2023/07/05 14:21:42 [notice] 27#27: gracefully shutting down
+2023/07/05 14:21:42 [notice] 24#24: gracefully shutting down
+2023/07/05 14:21:42 [notice] 25#25: gracefully shutting down
+2023/07/05 14:21:42 [notice] 27#27: exiting
+2023/07/05 14:21:42 [notice] 20#20: exiting
+2023/07/05 14:21:42 [notice] 21#21: exiting
+2023/07/05 14:21:42 [notice] 23#23: exiting
+2023/07/05 14:21:42 [notice] 22#22: exiting
+2023/07/05 14:21:42 [notice] 26#26: exiting
+2023/07/05 14:21:42 [notice] 24#24: exiting
+2023/07/05 14:21:42 [notice] 26#26: exit
+2023/07/05 14:21:42 [notice] 21#21: exit
+2023/07/05 14:21:42 [notice] 25#25: exiting
+2023/07/05 14:21:42 [notice] 20#20: exit
+2023/07/05 14:21:42 [notice] 23#23: exit
+2023/07/05 14:21:42 [notice] 27#27: exit
+2023/07/05 14:21:42 [notice] 22#22: exit
+2023/07/05 14:21:42 [notice] 24#24: exit
+2023/07/05 14:21:42 [notice] 25#25: exit
+2023/07/05 14:21:42 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/07/05 14:21:42 [notice] 1#1: worker process 23 exited with code 0
+2023/07/05 14:21:42 [notice] 1#1: worker process 25 exited with code 0
+2023/07/05 14:21:42 [notice] 1#1: worker process 26 exited with code 0
+2023/07/05 14:21:42 [notice] 1#1: worker process 27 exited with code 0
+2023/07/05 14:21:42 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 14:21:42 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/07/05 14:21:42 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/07/05 14:21:42 [notice] 1#1: worker process 20 exited with code 0
+2023/07/05 14:21:42 [notice] 1#1: worker process 21 exited with code 0
+2023/07/05 14:21:42 [notice] 1#1: worker process 22 exited with code 0
+2023/07/05 14:21:42 [notice] 1#1: worker process 24 exited with code 0
+2023/07/05 14:21:42 [notice] 1#1: exit
+2023/07/05 14:21:51 [notice] 1#1: using the "epoll" event method
+2023/07/05 14:21:51 [notice] 1#1: nginx/1.25.1
+2023/07/05 14:21:51 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/05 14:21:51 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/05 14:21:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/05 14:21:51 [notice] 1#1: start worker processes
+2023/07/05 14:21:51 [notice] 1#1: start worker process 20
+2023/07/05 14:21:51 [notice] 1#1: start worker process 21
+2023/07/05 14:21:51 [notice] 1#1: start worker process 22
+2023/07/05 14:21:51 [notice] 1#1: start worker process 23
+2023/07/05 14:21:51 [notice] 1#1: start worker process 24
+2023/07/05 14:21:51 [notice] 1#1: start worker process 25
+2023/07/05 14:21:51 [notice] 1#1: start worker process 26
+2023/07/05 14:21:51 [notice] 1#1: start worker process 27
+2023/07/05 14:25:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/05 14:25:03 [notice] 22#22: gracefully shutting down
+2023/07/05 14:25:03 [notice] 20#20: gracefully shutting down
+2023/07/05 14:25:03 [notice] 21#21: gracefully shutting down
+2023/07/05 14:25:03 [notice] 20#20: exiting
+2023/07/05 14:25:03 [notice] 23#23: gracefully shutting down
+2023/07/05 14:25:03 [notice] 27#27: gracefully shutting down
+2023/07/05 14:25:03 [notice] 24#24: gracefully shutting down
+2023/07/05 14:25:03 [notice] 26#26: gracefully shutting down
+2023/07/05 14:25:03 [notice] 25#25: gracefully shutting down
+2023/07/05 14:25:03 [notice] 22#22: exiting
+2023/07/05 14:25:03 [notice] 21#21: exiting
+2023/07/05 14:25:03 [notice] 26#26: exiting
+2023/07/05 14:25:03 [notice] 20#20: exit
+2023/07/05 14:25:03 [notice] 27#27: exiting
+2023/07/05 14:25:03 [notice] 24#24: exiting
+2023/07/05 14:25:03 [notice] 23#23: exiting
+2023/07/05 14:25:03 [notice] 25#25: exiting
+2023/07/05 14:25:03 [notice] 22#22: exit
+2023/07/05 14:25:03 [notice] 21#21: exit
+2023/07/05 14:25:03 [notice] 26#26: exit
+2023/07/05 14:25:03 [notice] 27#27: exit
+2023/07/05 14:25:03 [notice] 24#24: exit
+2023/07/05 14:25:03 [notice] 25#25: exit
+2023/07/05 14:25:03 [notice] 23#23: exit
+2023/07/05 14:25:04 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/07/05 14:25:04 [notice] 1#1: worker process 23 exited with code 0
+2023/07/05 14:25:04 [notice] 1#1: worker process 20 exited with code 0
+2023/07/05 14:25:04 [notice] 1#1: worker process 21 exited with code 0
+2023/07/05 14:25:04 [notice] 1#1: worker process 22 exited with code 0
+2023/07/05 14:25:04 [notice] 1#1: worker process 24 exited with code 0
+2023/07/05 14:25:04 [notice] 1#1: worker process 25 exited with code 0
+2023/07/05 14:25:04 [notice] 1#1: worker process 26 exited with code 0
+2023/07/05 14:25:04 [notice] 1#1: worker process 27 exited with code 0
+2023/07/05 14:25:04 [notice] 1#1: exit
+2023/07/05 14:26:34 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/laravel.conf:11
+2023/07/05 14:30:27 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/laravel.conf:11
+2023/07/05 14:33:21 [notice] 1#1: using the "epoll" event method
+2023/07/05 14:33:21 [notice] 1#1: nginx/1.25.1
+2023/07/05 14:33:21 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/05 14:33:21 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/05 14:33:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/05 14:33:21 [notice] 1#1: start worker processes
+2023/07/05 14:33:21 [notice] 1#1: start worker process 20
+2023/07/05 14:33:21 [notice] 1#1: start worker process 21
+2023/07/05 14:33:21 [notice] 1#1: start worker process 22
+2023/07/05 14:33:21 [notice] 1#1: start worker process 23
+2023/07/05 14:33:21 [notice] 1#1: start worker process 24
+2023/07/05 14:33:21 [notice] 1#1: start worker process 25
+2023/07/05 14:33:21 [notice] 1#1: start worker process 26
+2023/07/05 14:33:21 [notice] 1#1: start worker process 27
+2023/07/05 14:53:18 [notice] 1#1: using the "epoll" event method
+2023/07/05 14:53:18 [notice] 1#1: nginx/1.25.1
+2023/07/05 14:53:18 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/05 14:53:18 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/05 14:53:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/05 14:53:18 [notice] 1#1: start worker processes
+2023/07/05 14:53:18 [notice] 1#1: start worker process 20
+2023/07/05 14:53:18 [notice] 1#1: start worker process 21
+2023/07/05 14:53:18 [notice] 1#1: start worker process 22
+2023/07/05 14:53:18 [notice] 1#1: start worker process 23
+2023/07/05 14:53:18 [notice] 1#1: start worker process 24
+2023/07/05 14:53:18 [notice] 1#1: start worker process 25
+2023/07/05 14:53:18 [notice] 1#1: start worker process 26
+2023/07/05 14:53:18 [notice] 1#1: start worker process 27
+2023/07/05 14:55:30 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/05 14:55:30 [notice] 22#22: gracefully shutting down
+2023/07/05 14:55:30 [notice] 20#20: gracefully shutting down
+2023/07/05 14:55:30 [notice] 21#21: gracefully shutting down
+2023/07/05 14:55:30 [notice] 25#25: gracefully shutting down
+2023/07/05 14:55:30 [notice] 24#24: gracefully shutting down
+2023/07/05 14:55:30 [notice] 23#23: gracefully shutting down
+2023/07/05 14:55:30 [notice] 27#27: gracefully shutting down
+2023/07/05 14:55:30 [notice] 26#26: gracefully shutting down
+2023/07/05 14:55:30 [notice] 27#27: exiting
+2023/07/05 14:55:30 [notice] 22#22: exiting
+2023/07/05 14:55:30 [notice] 20#20: exiting
+2023/07/05 14:55:30 [notice] 21#21: exiting
+2023/07/05 14:55:30 [notice] 24#24: exiting
+2023/07/05 14:55:30 [notice] 25#25: exiting
+2023/07/05 14:55:30 [notice] 23#23: exiting
+2023/07/05 14:55:30 [notice] 26#26: exiting
+2023/07/05 14:55:30 [notice] 27#27: exit
+2023/07/05 14:55:30 [notice] 22#22: exit
+2023/07/05 14:55:30 [notice] 20#20: exit
+2023/07/05 14:55:30 [notice] 21#21: exit
+2023/07/05 14:55:30 [notice] 24#24: exit
+2023/07/05 14:55:30 [notice] 25#25: exit
+2023/07/05 14:55:30 [notice] 23#23: exit
+2023/07/05 14:55:30 [notice] 26#26: exit
+2023/07/05 14:55:31 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/07/05 14:55:31 [notice] 1#1: worker process 20 exited with code 0
+2023/07/05 14:55:31 [notice] 1#1: worker process 23 exited with code 0
+2023/07/05 14:55:31 [notice] 1#1: worker process 24 exited with code 0
+2023/07/05 14:55:31 [notice] 1#1: worker process 26 exited with code 0
+2023/07/05 14:55:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 14:55:31 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/07/05 14:55:31 [notice] 1#1: worker process 21 exited with code 0
+2023/07/05 14:55:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 14:55:31 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/07/05 14:55:31 [notice] 1#1: worker process 22 exited with code 0
+2023/07/05 14:55:31 [notice] 1#1: worker process 25 exited with code 0
+2023/07/05 14:55:31 [notice] 1#1: worker process 27 exited with code 0
+2023/07/05 14:55:31 [notice] 1#1: exit
+2023/07/05 14:56:16 [notice] 1#1: using the "epoll" event method
+2023/07/05 14:56:16 [notice] 1#1: nginx/1.25.1
+2023/07/05 14:56:16 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/05 14:56:16 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/05 14:56:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/05 14:56:16 [notice] 1#1: start worker processes
+2023/07/05 14:56:16 [notice] 1#1: start worker process 20
+2023/07/05 14:56:16 [notice] 1#1: start worker process 21
+2023/07/05 14:56:16 [notice] 1#1: start worker process 22
+2023/07/05 14:56:16 [notice] 1#1: start worker process 23
+2023/07/05 14:56:16 [notice] 1#1: start worker process 24
+2023/07/05 14:56:16 [notice] 1#1: start worker process 25
+2023/07/05 14:56:16 [notice] 1#1: start worker process 26
+2023/07/05 14:56:16 [notice] 1#1: start worker process 27
+2023/07/05 14:57:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/05 14:57:14 [notice] 20#20: gracefully shutting down
+2023/07/05 14:57:14 [notice] 22#22: gracefully shutting down
+2023/07/05 14:57:14 [notice] 21#21: gracefully shutting down
+2023/07/05 14:57:14 [notice] 23#23: gracefully shutting down
+2023/07/05 14:57:14 [notice] 25#25: gracefully shutting down
+2023/07/05 14:57:14 [notice] 25#25: exiting
+2023/07/05 14:57:14 [notice] 26#26: gracefully shutting down
+2023/07/05 14:57:14 [notice] 24#24: gracefully shutting down
+2023/07/05 14:57:14 [notice] 27#27: gracefully shutting down
+2023/07/05 14:57:14 [notice] 20#20: exiting
+2023/07/05 14:57:14 [notice] 22#22: exiting
+2023/07/05 14:57:14 [notice] 21#21: exiting
+2023/07/05 14:57:14 [notice] 23#23: exiting
+2023/07/05 14:57:14 [notice] 25#25: exit
+2023/07/05 14:57:14 [notice] 26#26: exiting
+2023/07/05 14:57:14 [notice] 24#24: exiting
+2023/07/05 14:57:14 [notice] 27#27: exiting
+2023/07/05 14:57:14 [notice] 20#20: exit
+2023/07/05 14:57:14 [notice] 22#22: exit
+2023/07/05 14:57:14 [notice] 21#21: exit
+2023/07/05 14:57:14 [notice] 23#23: exit
+2023/07/05 14:57:14 [notice] 26#26: exit
+2023/07/05 14:57:14 [notice] 24#24: exit
+2023/07/05 14:57:14 [notice] 27#27: exit
+2023/07/05 14:57:15 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/07/05 14:57:15 [notice] 1#1: worker process 24 exited with code 0
+2023/07/05 14:57:15 [notice] 1#1: worker process 26 exited with code 0
+2023/07/05 14:57:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 14:57:15 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/07/05 14:57:15 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/07/05 14:57:15 [notice] 1#1: worker process 21 exited with code 0
+2023/07/05 14:57:15 [notice] 1#1: worker process 22 exited with code 0
+2023/07/05 14:57:15 [notice] 1#1: worker process 23 exited with code 0
+2023/07/05 14:57:15 [notice] 1#1: worker process 25 exited with code 0
+2023/07/05 14:57:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 14:57:15 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/07/05 14:57:15 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/07/05 14:57:15 [notice] 1#1: worker process 27 exited with code 0
+2023/07/05 14:57:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 14:57:15 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/07/05 14:57:15 [notice] 1#1: worker process 20 exited with code 0
+2023/07/05 14:57:15 [notice] 1#1: exit
+2023/07/05 15:03:43 [notice] 1#1: using the "epoll" event method
+2023/07/05 15:03:43 [notice] 1#1: nginx/1.25.1
+2023/07/05 15:03:43 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/05 15:03:43 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/05 15:03:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/05 15:03:43 [notice] 1#1: start worker processes
+2023/07/05 15:03:43 [notice] 1#1: start worker process 20
+2023/07/05 15:03:43 [notice] 1#1: start worker process 21
+2023/07/05 15:03:43 [notice] 1#1: start worker process 22
+2023/07/05 15:03:43 [notice] 1#1: start worker process 23
+2023/07/05 15:03:43 [notice] 1#1: start worker process 24
+2023/07/05 15:03:43 [notice] 1#1: start worker process 25
+2023/07/05 15:03:43 [notice] 1#1: start worker process 26
+2023/07/05 15:03:43 [notice] 1#1: start worker process 27
+2023/07/05 15:26:15 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/05 15:26:15 [notice] 20#20: gracefully shutting down
+2023/07/05 15:26:15 [notice] 27#27: gracefully shutting down
+2023/07/05 15:26:15 [notice] 25#25: gracefully shutting down
+2023/07/05 15:26:15 [notice] 23#23: gracefully shutting down
+2023/07/05 15:26:15 [notice] 22#22: gracefully shutting down
+2023/07/05 15:26:15 [notice] 26#26: gracefully shutting down
+2023/07/05 15:26:15 [notice] 21#21: gracefully shutting down
+2023/07/05 15:26:15 [notice] 24#24: gracefully shutting down
+2023/07/05 15:26:15 [notice] 22#22: exiting
+2023/07/05 15:26:15 [notice] 23#23: exiting
+2023/07/05 15:26:15 [notice] 20#20: exiting
+2023/07/05 15:26:15 [notice] 21#21: exiting
+2023/07/05 15:26:15 [notice] 27#27: exiting
+2023/07/05 15:26:15 [notice] 26#26: exiting
+2023/07/05 15:26:15 [notice] 24#24: exiting
+2023/07/05 15:26:15 [notice] 25#25: exiting
+2023/07/05 15:26:15 [notice] 20#20: exit
+2023/07/05 15:26:15 [notice] 23#23: exit
+2023/07/05 15:26:15 [notice] 27#27: exit
+2023/07/05 15:26:15 [notice] 26#26: exit
+2023/07/05 15:26:15 [notice] 22#22: exit
+2023/07/05 15:26:15 [notice] 24#24: exit
+2023/07/05 15:26:15 [notice] 25#25: exit
+2023/07/05 15:26:15 [notice] 21#21: exit
+2023/07/05 15:26:16 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/07/05 15:26:16 [notice] 1#1: worker process 27 exited with code 0
+2023/07/05 15:26:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 15:26:16 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/07/05 15:26:16 [notice] 1#1: worker process 20 exited with code 0
+2023/07/05 15:26:16 [notice] 1#1: worker process 21 exited with code 0
+2023/07/05 15:26:16 [notice] 1#1: worker process 22 exited with code 0
+2023/07/05 15:26:16 [notice] 1#1: worker process 23 exited with code 0
+2023/07/05 15:26:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 15:26:16 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/07/05 15:26:16 [notice] 1#1: worker process 26 exited with code 0
+2023/07/05 15:26:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 15:26:16 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/07/05 15:26:16 [notice] 1#1: worker process 25 exited with code 0
+2023/07/05 15:26:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/05 15:26:16 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/07/05 15:26:16 [notice] 1#1: worker process 24 exited with code 0
+2023/07/05 15:26:16 [notice] 1#1: exit
