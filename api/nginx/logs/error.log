@@ -651,3 +651,926 @@
 2023/07/05 15:24:39 [notice] 1#1: worker process 21 exited with code 0
 2023/07/05 15:24:39 [notice] 1#1: worker process 24 exited with code 0
 2023/07/05 15:24:39 [notice] 1#1: exit
+2023/07/06 01:39:01 [notice] 1#1: using the "epoll" event method
+2023/07/06 01:39:01 [notice] 1#1: nginx/1.25.1
+2023/07/06 01:39:01 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/06 01:39:01 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/06 01:39:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/06 01:39:01 [notice] 1#1: start worker processes
+2023/07/06 01:39:01 [notice] 1#1: start worker process 20
+2023/07/06 01:39:01 [notice] 1#1: start worker process 21
+2023/07/06 01:39:01 [notice] 1#1: start worker process 22
+2023/07/06 01:39:01 [notice] 1#1: start worker process 23
+2023/07/06 01:39:01 [notice] 1#1: start worker process 24
+2023/07/06 01:39:01 [notice] 1#1: start worker process 25
+2023/07/06 01:39:01 [notice] 1#1: start worker process 26
+2023/07/06 01:39:01 [notice] 1#1: start worker process 27
+2023/07/06 01:45:07 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 01:45:12 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 01:45:13 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 01:46:33 [error] 22#22: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 01:46:34 [error] 24#24: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 01:46:36 [error] 24#24: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 01:46:36 [error] 24#24: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 01:46:37 [error] 24#24: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 01:46:37 [error] 24#24: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 01:46:38 [error] 24#24: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 01:46:38 [error] 24#24: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 01:46:39 [error] 24#24: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 01:46:39 [error] 24#24: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 01:46:39 [error] 24#24: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 01:46:39 [error] 24#24: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 01:46:40 [error] 24#24: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 01:46:40 [error] 24#24: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 01:46:41 [error] 24#24: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 01:46:41 [error] 24#24: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 01:46:41 [error] 24#24: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 01:46:41 [error] 24#24: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 01:48:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/06 01:48:29 [notice] 21#21: gracefully shutting down
+2023/07/06 01:48:29 [notice] 20#20: gracefully shutting down
+2023/07/06 01:48:29 [notice] 21#21: exiting
+2023/07/06 01:48:29 [notice] 20#20: exiting
+2023/07/06 01:48:29 [notice] 23#23: gracefully shutting down
+2023/07/06 01:48:29 [notice] 22#22: gracefully shutting down
+2023/07/06 01:48:29 [notice] 24#24: gracefully shutting down
+2023/07/06 01:48:29 [notice] 25#25: gracefully shutting down
+2023/07/06 01:48:29 [notice] 23#23: exiting
+2023/07/06 01:48:29 [notice] 26#26: gracefully shutting down
+2023/07/06 01:48:29 [notice] 27#27: gracefully shutting down
+2023/07/06 01:48:29 [notice] 22#22: exiting
+2023/07/06 01:48:29 [notice] 24#24: exiting
+2023/07/06 01:48:29 [notice] 25#25: exiting
+2023/07/06 01:48:29 [notice] 26#26: exiting
+2023/07/06 01:48:29 [notice] 27#27: exiting
+2023/07/06 01:48:29 [notice] 25#25: exit
+2023/07/06 01:48:29 [notice] 21#21: exit
+2023/07/06 01:48:29 [notice] 24#24: exit
+2023/07/06 01:48:29 [notice] 20#20: exit
+2023/07/06 01:48:29 [notice] 26#26: exit
+2023/07/06 01:48:29 [notice] 23#23: exit
+2023/07/06 01:48:29 [notice] 22#22: exit
+2023/07/06 01:48:29 [notice] 27#27: exit
+2023/07/06 01:48:30 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/07/06 01:48:30 [notice] 1#1: worker process 20 exited with code 0
+2023/07/06 01:48:30 [notice] 1#1: worker process 21 exited with code 0
+2023/07/06 01:48:30 [notice] 1#1: worker process 22 exited with code 0
+2023/07/06 01:48:30 [notice] 1#1: worker process 24 exited with code 0
+2023/07/06 01:48:30 [notice] 1#1: worker process 25 exited with code 0
+2023/07/06 01:48:30 [notice] 1#1: worker process 26 exited with code 0
+2023/07/06 01:48:30 [notice] 1#1: worker process 27 exited with code 0
+2023/07/06 01:48:30 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 01:48:30 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/07/06 01:48:30 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/07/06 01:48:30 [notice] 1#1: worker process 23 exited with code 0
+2023/07/06 01:48:30 [notice] 1#1: exit
+2023/07/06 01:48:34 [notice] 1#1: using the "epoll" event method
+2023/07/06 01:48:34 [notice] 1#1: nginx/1.25.1
+2023/07/06 01:48:34 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/06 01:48:34 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/06 01:48:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/06 01:48:34 [notice] 1#1: start worker processes
+2023/07/06 01:48:34 [notice] 1#1: start worker process 20
+2023/07/06 01:48:34 [notice] 1#1: start worker process 21
+2023/07/06 01:48:34 [notice] 1#1: start worker process 22
+2023/07/06 01:48:34 [notice] 1#1: start worker process 23
+2023/07/06 01:48:34 [notice] 1#1: start worker process 24
+2023/07/06 01:48:34 [notice] 1#1: start worker process 25
+2023/07/06 01:48:34 [notice] 1#1: start worker process 26
+2023/07/06 01:48:34 [notice] 1#1: start worker process 27
+2023/07/06 01:48:42 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 01:48:42 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 01:48:43 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 01:48:43 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 01:48:44 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 01:48:44 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 01:48:44 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 01:48:44 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 01:48:45 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 01:48:45 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 01:48:46 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 01:48:46 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 01:48:46 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 01:48:46 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 01:51:50 [error] 22#22: *18 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 01:51:51 [error] 22#22: *18 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 01:51:51 [error] 22#22: *18 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 01:51:51 [error] 22#22: *18 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 01:51:51 [error] 22#22: *18 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 01:51:51 [error] 22#22: *18 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 01:51:52 [error] 22#22: *18 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 01:51:52 [error] 22#22: *18 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 01:59:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/06 01:59:56 [notice] 21#21: gracefully shutting down
+2023/07/06 01:59:56 [notice] 22#22: gracefully shutting down
+2023/07/06 01:59:56 [notice] 21#21: exiting
+2023/07/06 01:59:56 [notice] 20#20: gracefully shutting down
+2023/07/06 01:59:56 [notice] 21#21: exit
+2023/07/06 01:59:56 [notice] 23#23: gracefully shutting down
+2023/07/06 01:59:56 [notice] 25#25: gracefully shutting down
+2023/07/06 01:59:56 [notice] 26#26: gracefully shutting down
+2023/07/06 01:59:56 [notice] 24#24: gracefully shutting down
+2023/07/06 01:59:56 [notice] 26#26: exiting
+2023/07/06 01:59:56 [notice] 27#27: gracefully shutting down
+2023/07/06 01:59:56 [notice] 22#22: exiting
+2023/07/06 01:59:56 [notice] 20#20: exiting
+2023/07/06 01:59:56 [notice] 23#23: exiting
+2023/07/06 01:59:56 [notice] 25#25: exiting
+2023/07/06 01:59:56 [notice] 24#24: exiting
+2023/07/06 01:59:56 [notice] 26#26: exit
+2023/07/06 01:59:56 [notice] 27#27: exiting
+2023/07/06 01:59:56 [notice] 22#22: exit
+2023/07/06 01:59:56 [notice] 20#20: exit
+2023/07/06 01:59:56 [notice] 23#23: exit
+2023/07/06 01:59:56 [notice] 25#25: exit
+2023/07/06 01:59:56 [notice] 24#24: exit
+2023/07/06 01:59:56 [notice] 27#27: exit
+2023/07/06 01:59:56 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/07/06 01:59:56 [notice] 1#1: worker process 20 exited with code 0
+2023/07/06 01:59:56 [notice] 1#1: worker process 23 exited with code 0
+2023/07/06 01:59:56 [notice] 1#1: worker process 26 exited with code 0
+2023/07/06 01:59:56 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 01:59:56 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/07/06 01:59:56 [notice] 1#1: worker process 21 exited with code 0
+2023/07/06 01:59:56 [notice] 1#1: worker process 22 exited with code 0
+2023/07/06 01:59:56 [notice] 1#1: worker process 24 exited with code 0
+2023/07/06 01:59:56 [notice] 1#1: worker process 25 exited with code 0
+2023/07/06 01:59:56 [notice] 1#1: worker process 27 exited with code 0
+2023/07/06 01:59:56 [notice] 1#1: exit
+2023/07/06 01:59:59 [notice] 1#1: using the "epoll" event method
+2023/07/06 01:59:59 [notice] 1#1: nginx/1.25.1
+2023/07/06 01:59:59 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/06 01:59:59 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/06 01:59:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/06 01:59:59 [notice] 1#1: start worker processes
+2023/07/06 01:59:59 [notice] 1#1: start worker process 20
+2023/07/06 01:59:59 [notice] 1#1: start worker process 21
+2023/07/06 01:59:59 [notice] 1#1: start worker process 22
+2023/07/06 01:59:59 [notice] 1#1: start worker process 23
+2023/07/06 01:59:59 [notice] 1#1: start worker process 24
+2023/07/06 01:59:59 [notice] 1#1: start worker process 25
+2023/07/06 01:59:59 [notice] 1#1: start worker process 26
+2023/07/06 01:59:59 [notice] 1#1: start worker process 27
+2023/07/06 02:00:05 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:00:05 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 02:00:06 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:00:06 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 02:00:07 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:00:07 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 02:00:08 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:00:08 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 02:00:08 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:00:08 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 02:04:02 [error] 20#20: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:04:02 [error] 20#20: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 02:04:03 [error] 20#20: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:04:03 [error] 20#20: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 02:04:04 [error] 20#20: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:04:04 [error] 20#20: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 02:04:04 [error] 20#20: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:04:04 [error] 20#20: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 02:04:04 [error] 20#20: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:04:04 [error] 20#20: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 02:04:05 [error] 20#20: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:04:05 [error] 20#20: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/api/users"
+2023/07/06 02:05:33 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:05:33 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:05:35 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:05:35 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:05:36 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:05:36 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:05:36 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:05:36 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:05:37 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:05:37 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:05:37 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:05:37 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:05:38 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:05:38 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:05:38 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:05:38 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:05:39 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:05:39 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:05:40 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:05:40 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:05:40 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:05:40 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:05:41 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:05:41 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:05:41 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:05:41 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:05:42 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:05:42 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:05:42 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:05:42 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:05:43 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:05:43 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:05:43 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:05:43 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:05:43 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:05:43 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:05:43 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:05:43 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:05:43 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:05:43 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:05:43 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:05:43 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:05:44 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:05:44 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:05:44 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:05:44 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:05:44 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:05:44 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:05:45 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:05:45 [error] 24#24: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:06:51 [error] 26#26: *80 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:06:51 [error] 26#26: *80 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:06:52 [error] 26#26: *80 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:06:52 [error] 26#26: *80 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:06:52 [error] 26#26: *80 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:06:52 [error] 26#26: *80 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:06:53 [error] 26#26: *80 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:06:53 [error] 26#26: *80 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:06:53 [error] 26#26: *80 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:06:53 [error] 26#26: *80 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000", referrer: "http://localhost:9000/"
+2023/07/06 02:07:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/06 02:07:42 [notice] 22#22: gracefully shutting down
+2023/07/06 02:07:42 [notice] 20#20: gracefully shutting down
+2023/07/06 02:07:42 [notice] 24#24: gracefully shutting down
+2023/07/06 02:07:42 [notice] 26#26: gracefully shutting down
+2023/07/06 02:07:42 [notice] 27#27: gracefully shutting down
+2023/07/06 02:07:42 [notice] 23#23: gracefully shutting down
+2023/07/06 02:07:42 [notice] 21#21: gracefully shutting down
+2023/07/06 02:07:42 [notice] 25#25: gracefully shutting down
+2023/07/06 02:07:42 [notice] 21#21: exiting
+2023/07/06 02:07:42 [notice] 20#20: exiting
+2023/07/06 02:07:42 [notice] 22#22: exiting
+2023/07/06 02:07:42 [notice] 24#24: exiting
+2023/07/06 02:07:42 [notice] 26#26: exiting
+2023/07/06 02:07:42 [notice] 23#23: exiting
+2023/07/06 02:07:42 [notice] 25#25: exiting
+2023/07/06 02:07:42 [notice] 21#21: exit
+2023/07/06 02:07:42 [notice] 20#20: exit
+2023/07/06 02:07:42 [notice] 22#22: exit
+2023/07/06 02:07:42 [notice] 24#24: exit
+2023/07/06 02:07:42 [notice] 26#26: exit
+2023/07/06 02:07:42 [notice] 23#23: exit
+2023/07/06 02:07:42 [notice] 25#25: exit
+2023/07/06 02:07:42 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/07/06 02:07:42 [notice] 1#1: worker process 26 exited with code 0
+2023/07/06 02:07:42 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 02:07:42 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/07/06 02:07:42 [notice] 1#1: worker process 20 exited with code 0
+2023/07/06 02:07:42 [notice] 1#1: worker process 21 exited with code 0
+2023/07/06 02:07:42 [notice] 1#1: worker process 22 exited with code 0
+2023/07/06 02:07:42 [notice] 1#1: worker process 24 exited with code 0
+2023/07/06 02:07:42 [notice] 1#1: worker process 25 exited with code 0
+2023/07/06 02:07:42 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 02:07:42 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/07/06 02:07:42 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/07/06 02:07:42 [notice] 1#1: worker process 23 exited with code 0
+2023/07/06 02:07:42 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 02:07:45 [notice] 27#27: exiting
+2023/07/06 02:07:45 [notice] 27#27: exit
+2023/07/06 02:07:45 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/07/06 02:07:45 [notice] 1#1: worker process 27 exited with code 0
+2023/07/06 02:07:45 [notice] 1#1: exit
+2023/07/06 02:07:55 [notice] 1#1: using the "epoll" event method
+2023/07/06 02:07:55 [notice] 1#1: nginx/1.25.1
+2023/07/06 02:07:55 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/06 02:07:55 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/06 02:07:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/06 02:07:55 [notice] 1#1: start worker processes
+2023/07/06 02:07:55 [notice] 1#1: start worker process 20
+2023/07/06 02:07:55 [notice] 1#1: start worker process 21
+2023/07/06 02:07:55 [notice] 1#1: start worker process 22
+2023/07/06 02:07:55 [notice] 1#1: start worker process 23
+2023/07/06 02:07:55 [notice] 1#1: start worker process 24
+2023/07/06 02:07:55 [notice] 1#1: start worker process 25
+2023/07/06 02:07:55 [notice] 1#1: start worker process 26
+2023/07/06 02:07:55 [notice] 1#1: start worker process 27
+2023/07/06 02:09:56 [notice] 1#1: using the "epoll" event method
+2023/07/06 02:09:56 [notice] 1#1: nginx/1.25.1
+2023/07/06 02:09:56 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/06 02:09:56 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/06 02:09:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/06 02:09:56 [notice] 1#1: start worker processes
+2023/07/06 02:09:56 [notice] 1#1: start worker process 20
+2023/07/06 02:09:56 [notice] 1#1: start worker process 21
+2023/07/06 02:09:56 [notice] 1#1: start worker process 22
+2023/07/06 02:09:56 [notice] 1#1: start worker process 23
+2023/07/06 02:09:56 [notice] 1#1: start worker process 24
+2023/07/06 02:09:56 [notice] 1#1: start worker process 25
+2023/07/06 02:09:56 [notice] 1#1: start worker process 26
+2023/07/06 02:09:56 [notice] 1#1: start worker process 27
+2023/07/06 02:14:19 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/06 02:14:19 [notice] 20#20: gracefully shutting down
+2023/07/06 02:14:19 [notice] 27#27: gracefully shutting down
+2023/07/06 02:14:19 [notice] 22#22: gracefully shutting down
+2023/07/06 02:14:19 [notice] 21#21: gracefully shutting down
+2023/07/06 02:14:19 [notice] 22#22: exiting
+2023/07/06 02:14:19 [notice] 23#23: gracefully shutting down
+2023/07/06 02:14:19 [notice] 24#24: gracefully shutting down
+2023/07/06 02:14:19 [notice] 26#26: gracefully shutting down
+2023/07/06 02:14:19 [notice] 25#25: gracefully shutting down
+2023/07/06 02:14:19 [notice] 20#20: exiting
+2023/07/06 02:14:19 [notice] 27#27: exiting
+2023/07/06 02:14:19 [notice] 21#21: exiting
+2023/07/06 02:14:19 [notice] 22#22: exit
+2023/07/06 02:14:19 [notice] 23#23: exiting
+2023/07/06 02:14:19 [notice] 24#24: exiting
+2023/07/06 02:14:19 [notice] 26#26: exiting
+2023/07/06 02:14:19 [notice] 25#25: exiting
+2023/07/06 02:14:19 [notice] 20#20: exit
+2023/07/06 02:14:19 [notice] 27#27: exit
+2023/07/06 02:14:19 [notice] 21#21: exit
+2023/07/06 02:14:19 [notice] 23#23: exit
+2023/07/06 02:14:19 [notice] 24#24: exit
+2023/07/06 02:14:19 [notice] 26#26: exit
+2023/07/06 02:14:19 [notice] 25#25: exit
+2023/07/06 02:14:19 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/07/06 02:14:19 [notice] 1#1: worker process 25 exited with code 0
+2023/07/06 02:14:19 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 02:14:19 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/07/06 02:14:19 [notice] 1#1: worker process 22 exited with code 0
+2023/07/06 02:14:19 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 02:14:19 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/07/06 02:14:19 [notice] 1#1: worker process 20 exited with code 0
+2023/07/06 02:14:19 [notice] 1#1: worker process 23 exited with code 0
+2023/07/06 02:14:19 [notice] 1#1: worker process 24 exited with code 0
+2023/07/06 02:14:19 [notice] 1#1: worker process 27 exited with code 0
+2023/07/06 02:14:19 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 02:14:19 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/07/06 02:14:19 [notice] 1#1: worker process 21 exited with code 0
+2023/07/06 02:14:19 [notice] 1#1: worker process 26 exited with code 0
+2023/07/06 02:14:19 [notice] 1#1: exit
+2023/07/06 02:14:22 [notice] 1#1: using the "epoll" event method
+2023/07/06 02:14:22 [notice] 1#1: nginx/1.25.1
+2023/07/06 02:14:22 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/06 02:14:22 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/06 02:14:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/06 02:14:22 [notice] 1#1: start worker processes
+2023/07/06 02:14:22 [notice] 1#1: start worker process 20
+2023/07/06 02:14:22 [notice] 1#1: start worker process 21
+2023/07/06 02:14:22 [notice] 1#1: start worker process 22
+2023/07/06 02:14:22 [notice] 1#1: start worker process 23
+2023/07/06 02:14:22 [notice] 1#1: start worker process 24
+2023/07/06 02:14:22 [notice] 1#1: start worker process 25
+2023/07/06 02:14:22 [notice] 1#1: start worker process 26
+2023/07/06 02:14:22 [notice] 1#1: start worker process 27
+2023/07/06 02:28:03 [notice] 1#1: using the "epoll" event method
+2023/07/06 02:28:03 [notice] 1#1: nginx/1.25.1
+2023/07/06 02:28:03 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/06 02:28:03 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/06 02:28:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/06 02:28:03 [notice] 1#1: start worker processes
+2023/07/06 02:28:03 [notice] 1#1: start worker process 20
+2023/07/06 02:28:03 [notice] 1#1: start worker process 21
+2023/07/06 02:28:03 [notice] 1#1: start worker process 22
+2023/07/06 02:28:03 [notice] 1#1: start worker process 23
+2023/07/06 02:28:03 [notice] 1#1: start worker process 24
+2023/07/06 02:28:03 [notice] 1#1: start worker process 25
+2023/07/06 02:28:03 [notice] 1#1: start worker process 26
+2023/07/06 02:28:03 [notice] 1#1: start worker process 27
+2023/07/06 02:41:33 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:41:36 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:41:37 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:41:38 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:44:46 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/06 02:44:46 [notice] 20#20: gracefully shutting down
+2023/07/06 02:44:46 [notice] 21#21: gracefully shutting down
+2023/07/06 02:44:46 [notice] 23#23: gracefully shutting down
+2023/07/06 02:44:46 [notice] 24#24: gracefully shutting down
+2023/07/06 02:44:46 [notice] 27#27: gracefully shutting down
+2023/07/06 02:44:46 [notice] 26#26: gracefully shutting down
+2023/07/06 02:44:46 [notice] 22#22: gracefully shutting down
+2023/07/06 02:44:46 [notice] 25#25: gracefully shutting down
+2023/07/06 02:44:46 [notice] 20#20: exiting
+2023/07/06 02:44:46 [notice] 21#21: exiting
+2023/07/06 02:44:46 [notice] 23#23: exiting
+2023/07/06 02:44:46 [notice] 27#27: exiting
+2023/07/06 02:44:46 [notice] 24#24: exiting
+2023/07/06 02:44:46 [notice] 20#20: exit
+2023/07/06 02:44:46 [notice] 25#25: exiting
+2023/07/06 02:44:46 [notice] 26#26: exiting
+2023/07/06 02:44:46 [notice] 21#21: exit
+2023/07/06 02:44:46 [notice] 22#22: exiting
+2023/07/06 02:44:46 [notice] 23#23: exit
+2023/07/06 02:44:46 [notice] 27#27: exit
+2023/07/06 02:44:46 [notice] 24#24: exit
+2023/07/06 02:44:46 [notice] 25#25: exit
+2023/07/06 02:44:46 [notice] 26#26: exit
+2023/07/06 02:44:46 [notice] 22#22: exit
+2023/07/06 02:44:46 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/07/06 02:44:46 [notice] 1#1: worker process 26 exited with code 0
+2023/07/06 02:44:46 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 02:44:46 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/07/06 02:44:46 [notice] 1#1: worker process 21 exited with code 0
+2023/07/06 02:44:46 [notice] 1#1: worker process 24 exited with code 0
+2023/07/06 02:44:46 [notice] 1#1: worker process 25 exited with code 0
+2023/07/06 02:44:46 [notice] 1#1: worker process 27 exited with code 0
+2023/07/06 02:44:46 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 02:44:46 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/07/06 02:44:46 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/07/06 02:44:46 [notice] 1#1: worker process 20 exited with code 0
+2023/07/06 02:44:46 [notice] 1#1: worker process 22 exited with code 0
+2023/07/06 02:44:46 [notice] 1#1: worker process 23 exited with code 0
+2023/07/06 02:44:46 [notice] 1#1: exit
+2023/07/06 02:44:50 [notice] 1#1: using the "epoll" event method
+2023/07/06 02:44:50 [notice] 1#1: nginx/1.25.1
+2023/07/06 02:44:50 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/06 02:44:50 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/06 02:44:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/06 02:44:50 [notice] 1#1: start worker processes
+2023/07/06 02:44:50 [notice] 1#1: start worker process 20
+2023/07/06 02:44:50 [notice] 1#1: start worker process 21
+2023/07/06 02:44:50 [notice] 1#1: start worker process 22
+2023/07/06 02:44:50 [notice] 1#1: start worker process 23
+2023/07/06 02:44:50 [notice] 1#1: start worker process 24
+2023/07/06 02:44:50 [notice] 1#1: start worker process 25
+2023/07/06 02:44:50 [notice] 1#1: start worker process 26
+2023/07/06 02:44:50 [notice] 1#1: start worker process 27
+2023/07/06 02:45:05 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:45:05 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:45:05 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:48:28 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/06 02:48:28 [notice] 22#22: gracefully shutting down
+2023/07/06 02:48:28 [notice] 26#26: gracefully shutting down
+2023/07/06 02:48:28 [notice] 20#20: gracefully shutting down
+2023/07/06 02:48:28 [notice] 24#24: gracefully shutting down
+2023/07/06 02:48:28 [notice] 22#22: exiting
+2023/07/06 02:48:28 [notice] 21#21: gracefully shutting down
+2023/07/06 02:48:28 [notice] 25#25: gracefully shutting down
+2023/07/06 02:48:28 [notice] 23#23: gracefully shutting down
+2023/07/06 02:48:28 [notice] 23#23: exiting
+2023/07/06 02:48:28 [notice] 27#27: gracefully shutting down
+2023/07/06 02:48:28 [notice] 26#26: exiting
+2023/07/06 02:48:28 [notice] 20#20: exiting
+2023/07/06 02:48:28 [notice] 24#24: exiting
+2023/07/06 02:48:28 [notice] 21#21: exiting
+2023/07/06 02:48:28 [notice] 25#25: exiting
+2023/07/06 02:48:28 [notice] 27#27: exiting
+2023/07/06 02:48:28 [notice] 24#24: exit
+2023/07/06 02:48:28 [notice] 23#23: exit
+2023/07/06 02:48:28 [notice] 26#26: exit
+2023/07/06 02:48:28 [notice] 22#22: exit
+2023/07/06 02:48:28 [notice] 27#27: exit
+2023/07/06 02:48:28 [notice] 20#20: exit
+2023/07/06 02:48:28 [notice] 21#21: exit
+2023/07/06 02:48:28 [notice] 25#25: exit
+2023/07/06 02:48:30 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/07/06 02:48:30 [notice] 1#1: worker process 23 exited with code 0
+2023/07/06 02:48:30 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 02:48:30 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/07/06 02:48:30 [notice] 1#1: worker process 24 exited with code 0
+2023/07/06 02:48:30 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 02:48:30 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/07/06 02:48:30 [notice] 1#1: worker process 20 exited with code 0
+2023/07/06 02:48:30 [notice] 1#1: worker process 25 exited with code 0
+2023/07/06 02:48:30 [notice] 1#1: worker process 26 exited with code 0
+2023/07/06 02:48:30 [notice] 1#1: worker process 27 exited with code 0
+2023/07/06 02:48:30 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 02:48:30 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/07/06 02:48:30 [notice] 1#1: worker process 22 exited with code 0
+2023/07/06 02:48:30 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 02:48:30 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/07/06 02:48:30 [notice] 1#1: worker process 21 exited with code 0
+2023/07/06 02:48:30 [notice] 1#1: exit
+2023/07/06 02:48:39 [notice] 1#1: using the "epoll" event method
+2023/07/06 02:48:39 [notice] 1#1: nginx/1.25.1
+2023/07/06 02:48:39 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/06 02:48:39 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/06 02:48:39 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/06 02:48:39 [notice] 1#1: start worker processes
+2023/07/06 02:48:39 [notice] 1#1: start worker process 20
+2023/07/06 02:48:39 [notice] 1#1: start worker process 21
+2023/07/06 02:48:39 [notice] 1#1: start worker process 22
+2023/07/06 02:48:39 [notice] 1#1: start worker process 23
+2023/07/06 02:48:39 [notice] 1#1: start worker process 24
+2023/07/06 02:48:39 [notice] 1#1: start worker process 25
+2023/07/06 02:48:39 [notice] 1#1: start worker process 26
+2023/07/06 02:48:39 [notice] 1#1: start worker process 27
+2023/07/06 02:48:50 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:48:53 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:48:53 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:48:54 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:48:54 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:48:54 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:48:54 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:48:55 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:48:55 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:48:55 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:48:56 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:48:56 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:48:56 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:48:56 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:48:57 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:48:57 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:48:58 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:48:58 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 02:49:00 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 03:12:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/06 03:12:29 [notice] 21#21: gracefully shutting down
+2023/07/06 03:12:29 [notice] 23#23: gracefully shutting down
+2023/07/06 03:12:29 [notice] 27#27: gracefully shutting down
+2023/07/06 03:12:29 [notice] 23#23: exiting
+2023/07/06 03:12:29 [notice] 20#20: gracefully shutting down
+2023/07/06 03:12:29 [notice] 27#27: exiting
+2023/07/06 03:12:29 [notice] 22#22: gracefully shutting down
+2023/07/06 03:12:29 [notice] 26#26: gracefully shutting down
+2023/07/06 03:12:29 [notice] 22#22: exiting
+2023/07/06 03:12:29 [notice] 24#24: gracefully shutting down
+2023/07/06 03:12:29 [notice] 25#25: gracefully shutting down
+2023/07/06 03:12:29 [notice] 21#21: exiting
+2023/07/06 03:12:29 [notice] 23#23: exit
+2023/07/06 03:12:29 [notice] 20#20: exiting
+2023/07/06 03:12:29 [notice] 27#27: exit
+2023/07/06 03:12:29 [notice] 26#26: exiting
+2023/07/06 03:12:29 [notice] 22#22: exit
+2023/07/06 03:12:29 [notice] 24#24: exiting
+2023/07/06 03:12:29 [notice] 25#25: exiting
+2023/07/06 03:12:29 [notice] 21#21: exit
+2023/07/06 03:12:29 [notice] 20#20: exit
+2023/07/06 03:12:29 [notice] 26#26: exit
+2023/07/06 03:12:29 [notice] 24#24: exit
+2023/07/06 03:12:29 [notice] 25#25: exit
+2023/07/06 03:12:29 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/07/06 03:12:29 [notice] 1#1: worker process 23 exited with code 0
+2023/07/06 03:12:29 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 03:12:29 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/07/06 03:12:29 [notice] 1#1: worker process 26 exited with code 0
+2023/07/06 03:12:29 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 03:12:29 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/07/06 03:12:29 [notice] 1#1: worker process 20 exited with code 0
+2023/07/06 03:12:29 [notice] 1#1: worker process 21 exited with code 0
+2023/07/06 03:12:29 [notice] 1#1: worker process 22 exited with code 0
+2023/07/06 03:12:29 [notice] 1#1: worker process 24 exited with code 0
+2023/07/06 03:12:29 [notice] 1#1: worker process 25 exited with code 0
+2023/07/06 03:12:29 [notice] 1#1: worker process 27 exited with code 0
+2023/07/06 03:12:29 [notice] 1#1: exit
+2023/07/06 03:12:40 [notice] 1#1: using the "epoll" event method
+2023/07/06 03:12:40 [notice] 1#1: nginx/1.25.1
+2023/07/06 03:12:40 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/06 03:12:40 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/06 03:12:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/06 03:12:40 [notice] 1#1: start worker processes
+2023/07/06 03:12:40 [notice] 1#1: start worker process 20
+2023/07/06 03:12:40 [notice] 1#1: start worker process 21
+2023/07/06 03:12:40 [notice] 1#1: start worker process 22
+2023/07/06 03:12:40 [notice] 1#1: start worker process 23
+2023/07/06 03:12:40 [notice] 1#1: start worker process 24
+2023/07/06 03:12:40 [notice] 1#1: start worker process 25
+2023/07/06 03:12:40 [notice] 1#1: start worker process 26
+2023/07/06 03:12:40 [notice] 1#1: start worker process 27
+2023/07/06 03:16:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/06 03:16:55 [notice] 23#23: gracefully shutting down
+2023/07/06 03:16:55 [notice] 20#20: gracefully shutting down
+2023/07/06 03:16:55 [notice] 21#21: gracefully shutting down
+2023/07/06 03:16:55 [notice] 22#22: gracefully shutting down
+2023/07/06 03:16:55 [notice] 27#27: gracefully shutting down
+2023/07/06 03:16:55 [notice] 26#26: gracefully shutting down
+2023/07/06 03:16:55 [notice] 25#25: gracefully shutting down
+2023/07/06 03:16:55 [notice] 24#24: gracefully shutting down
+2023/07/06 03:16:55 [notice] 23#23: exiting
+2023/07/06 03:16:55 [notice] 27#27: exiting
+2023/07/06 03:16:55 [notice] 21#21: exiting
+2023/07/06 03:16:55 [notice] 20#20: exiting
+2023/07/06 03:16:55 [notice] 25#25: exiting
+2023/07/06 03:16:55 [notice] 24#24: exiting
+2023/07/06 03:16:55 [notice] 22#22: exiting
+2023/07/06 03:16:55 [notice] 26#26: exiting
+2023/07/06 03:16:55 [notice] 23#23: exit
+2023/07/06 03:16:55 [notice] 27#27: exit
+2023/07/06 03:16:55 [notice] 21#21: exit
+2023/07/06 03:16:55 [notice] 25#25: exit
+2023/07/06 03:16:55 [notice] 22#22: exit
+2023/07/06 03:16:55 [notice] 24#24: exit
+2023/07/06 03:16:55 [notice] 26#26: exit
+2023/07/06 03:16:55 [notice] 20#20: exit
+2023/07/06 03:16:57 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/07/06 03:16:57 [notice] 1#1: worker process 21 exited with code 0
+2023/07/06 03:16:57 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 03:16:57 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/07/06 03:16:57 [notice] 1#1: worker process 20 exited with code 0
+2023/07/06 03:16:57 [notice] 1#1: worker process 23 exited with code 0
+2023/07/06 03:16:57 [notice] 1#1: worker process 24 exited with code 0
+2023/07/06 03:16:57 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 03:16:57 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/07/06 03:16:57 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/07/06 03:16:57 [notice] 1#1: worker process 27 exited with code 0
+2023/07/06 03:16:57 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 03:16:57 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/07/06 03:16:57 [notice] 1#1: worker process 22 exited with code 0
+2023/07/06 03:16:57 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 03:16:57 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/07/06 03:16:57 [notice] 1#1: worker process 25 exited with code 0
+2023/07/06 03:16:57 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 03:16:57 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/07/06 03:16:57 [notice] 1#1: worker process 26 exited with code 0
+2023/07/06 03:16:57 [notice] 1#1: exit
+2023/07/06 03:17:26 [notice] 1#1: using the "epoll" event method
+2023/07/06 03:17:26 [notice] 1#1: nginx/1.25.1
+2023/07/06 03:17:26 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/06 03:17:26 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/06 03:17:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/06 03:17:26 [notice] 1#1: start worker processes
+2023/07/06 03:17:26 [notice] 1#1: start worker process 20
+2023/07/06 03:17:26 [notice] 1#1: start worker process 21
+2023/07/06 03:17:26 [notice] 1#1: start worker process 22
+2023/07/06 03:17:26 [notice] 1#1: start worker process 23
+2023/07/06 03:17:26 [notice] 1#1: start worker process 24
+2023/07/06 03:17:26 [notice] 1#1: start worker process 25
+2023/07/06 03:17:26 [notice] 1#1: start worker process 26
+2023/07/06 03:17:26 [notice] 1#1: start worker process 27
+2023/07/06 03:32:40 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/06 03:32:40 [notice] 20#20: gracefully shutting down
+2023/07/06 03:32:40 [notice] 21#21: gracefully shutting down
+2023/07/06 03:32:40 [notice] 24#24: gracefully shutting down
+2023/07/06 03:32:40 [notice] 25#25: gracefully shutting down
+2023/07/06 03:32:40 [notice] 26#26: gracefully shutting down
+2023/07/06 03:32:40 [notice] 27#27: gracefully shutting down
+2023/07/06 03:32:40 [notice] 21#21: exiting
+2023/07/06 03:32:40 [notice] 20#20: exiting
+2023/07/06 03:32:40 [notice] 24#24: exiting
+2023/07/06 03:32:40 [notice] 25#25: exiting
+2023/07/06 03:32:40 [notice] 24#24: exit
+2023/07/06 03:32:40 [notice] 26#26: exiting
+2023/07/06 03:32:40 [notice] 21#21: exit
+2023/07/06 03:32:40 [notice] 20#20: exit
+2023/07/06 03:32:40 [notice] 25#25: exit
+2023/07/06 03:32:40 [notice] 27#27: exiting
+2023/07/06 03:32:40 [notice] 26#26: exit
+2023/07/06 03:32:40 [notice] 27#27: exit
+2023/07/06 03:32:40 [notice] 23#23: gracefully shutting down
+2023/07/06 03:32:40 [notice] 23#23: exiting
+2023/07/06 03:32:40 [notice] 23#23: exit
+2023/07/06 03:32:40 [notice] 22#22: gracefully shutting down
+2023/07/06 03:32:40 [notice] 22#22: exiting
+2023/07/06 03:32:40 [notice] 22#22: exit
+2023/07/06 03:32:40 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/07/06 03:32:40 [notice] 1#1: worker process 20 exited with code 0
+2023/07/06 03:32:40 [notice] 1#1: worker process 21 exited with code 0
+2023/07/06 03:32:40 [notice] 1#1: worker process 22 exited with code 0
+2023/07/06 03:32:40 [notice] 1#1: worker process 23 exited with code 0
+2023/07/06 03:32:40 [notice] 1#1: worker process 24 exited with code 0
+2023/07/06 03:32:40 [notice] 1#1: worker process 25 exited with code 0
+2023/07/06 03:32:40 [notice] 1#1: worker process 26 exited with code 0
+2023/07/06 03:32:40 [notice] 1#1: worker process 27 exited with code 0
+2023/07/06 03:32:40 [notice] 1#1: exit
+2023/07/06 03:33:01 [notice] 1#1: using the "epoll" event method
+2023/07/06 03:33:01 [notice] 1#1: nginx/1.25.1
+2023/07/06 03:33:01 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/06 03:33:01 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/06 03:33:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/06 03:33:01 [notice] 1#1: start worker processes
+2023/07/06 03:33:01 [notice] 1#1: start worker process 20
+2023/07/06 03:33:01 [notice] 1#1: start worker process 21
+2023/07/06 03:33:01 [notice] 1#1: start worker process 22
+2023/07/06 03:33:01 [notice] 1#1: start worker process 23
+2023/07/06 03:33:01 [notice] 1#1: start worker process 24
+2023/07/06 03:33:01 [notice] 1#1: start worker process 25
+2023/07/06 03:33:01 [notice] 1#1: start worker process 26
+2023/07/06 03:33:01 [notice] 1#1: start worker process 27
+2023/07/06 03:41:17 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/06 03:41:17 [notice] 21#21: gracefully shutting down
+2023/07/06 03:41:17 [notice] 20#20: gracefully shutting down
+2023/07/06 03:41:17 [notice] 22#22: gracefully shutting down
+2023/07/06 03:41:17 [notice] 24#24: gracefully shutting down
+2023/07/06 03:41:17 [notice] 26#26: gracefully shutting down
+2023/07/06 03:41:17 [notice] 25#25: gracefully shutting down
+2023/07/06 03:41:17 [notice] 27#27: gracefully shutting down
+2023/07/06 03:41:17 [notice] 23#23: gracefully shutting down
+2023/07/06 03:41:17 [notice] 26#26: exiting
+2023/07/06 03:41:17 [notice] 21#21: exiting
+2023/07/06 03:41:17 [notice] 24#24: exiting
+2023/07/06 03:41:17 [notice] 25#25: exiting
+2023/07/06 03:41:17 [notice] 22#22: exiting
+2023/07/06 03:41:17 [notice] 24#24: exit
+2023/07/06 03:41:17 [notice] 21#21: exit
+2023/07/06 03:41:17 [notice] 20#20: exiting
+2023/07/06 03:41:17 [notice] 26#26: exit
+2023/07/06 03:41:17 [notice] 27#27: exiting
+2023/07/06 03:41:17 [notice] 25#25: exit
+2023/07/06 03:41:17 [notice] 23#23: exiting
+2023/07/06 03:41:17 [notice] 27#27: exit
+2023/07/06 03:41:17 [notice] 22#22: exit
+2023/07/06 03:41:17 [notice] 20#20: exit
+2023/07/06 03:41:17 [notice] 23#23: exit
+2023/07/06 03:41:17 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/07/06 03:41:17 [notice] 1#1: worker process 21 exited with code 0
+2023/07/06 03:41:17 [notice] 1#1: worker process 22 exited with code 0
+2023/07/06 03:41:17 [notice] 1#1: worker process 23 exited with code 0
+2023/07/06 03:41:17 [notice] 1#1: worker process 25 exited with code 0
+2023/07/06 03:41:17 [notice] 1#1: worker process 27 exited with code 0
+2023/07/06 03:41:17 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 03:41:17 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/07/06 03:41:17 [notice] 1#1: worker process 26 exited with code 0
+2023/07/06 03:41:17 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 03:41:17 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/07/06 03:41:17 [notice] 1#1: worker process 20 exited with code 0
+2023/07/06 03:41:17 [notice] 1#1: worker process 24 exited with code 0
+2023/07/06 03:41:17 [notice] 1#1: exit
+2023/07/06 03:41:21 [notice] 1#1: using the "epoll" event method
+2023/07/06 03:41:21 [notice] 1#1: nginx/1.25.1
+2023/07/06 03:41:21 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/06 03:41:21 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/06 03:41:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/06 03:41:21 [notice] 1#1: start worker processes
+2023/07/06 03:41:21 [notice] 1#1: start worker process 20
+2023/07/06 03:41:21 [notice] 1#1: start worker process 21
+2023/07/06 03:41:21 [notice] 1#1: start worker process 22
+2023/07/06 03:41:21 [notice] 1#1: start worker process 23
+2023/07/06 03:41:21 [notice] 1#1: start worker process 24
+2023/07/06 03:41:21 [notice] 1#1: start worker process 25
+2023/07/06 03:41:21 [notice] 1#1: start worker process 26
+2023/07/06 03:41:21 [notice] 1#1: start worker process 27
+2023/07/06 03:41:50 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 03:41:54 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 03:41:55 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /api/users HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 03:42:11 [error] 23#23: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 03:42:23 [error] 25#25: *10 connect() failed (113: No route to host) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 03:46:43 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/06 03:46:43 [notice] 21#21: gracefully shutting down
+2023/07/06 03:46:43 [notice] 20#20: gracefully shutting down
+2023/07/06 03:46:43 [notice] 23#23: gracefully shutting down
+2023/07/06 03:46:43 [notice] 22#22: gracefully shutting down
+2023/07/06 03:46:43 [notice] 25#25: gracefully shutting down
+2023/07/06 03:46:43 [notice] 24#24: gracefully shutting down
+2023/07/06 03:46:43 [notice] 26#26: gracefully shutting down
+2023/07/06 03:46:43 [notice] 27#27: gracefully shutting down
+2023/07/06 03:46:43 [notice] 21#21: exiting
+2023/07/06 03:46:43 [notice] 20#20: exiting
+2023/07/06 03:46:43 [notice] 23#23: exiting
+2023/07/06 03:46:43 [notice] 22#22: exiting
+2023/07/06 03:46:43 [notice] 25#25: exiting
+2023/07/06 03:46:43 [notice] 24#24: exiting
+2023/07/06 03:46:43 [notice] 26#26: exiting
+2023/07/06 03:46:43 [notice] 27#27: exiting
+2023/07/06 03:46:43 [notice] 21#21: exit
+2023/07/06 03:46:43 [notice] 20#20: exit
+2023/07/06 03:46:43 [notice] 23#23: exit
+2023/07/06 03:46:43 [notice] 22#22: exit
+2023/07/06 03:46:43 [notice] 25#25: exit
+2023/07/06 03:46:43 [notice] 24#24: exit
+2023/07/06 03:46:43 [notice] 26#26: exit
+2023/07/06 03:46:43 [notice] 27#27: exit
+2023/07/06 03:46:44 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/07/06 03:46:44 [notice] 1#1: worker process 23 exited with code 0
+2023/07/06 03:46:44 [notice] 1#1: worker process 24 exited with code 0
+2023/07/06 03:46:44 [notice] 1#1: worker process 27 exited with code 0
+2023/07/06 03:46:44 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 03:46:44 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/07/06 03:46:44 [notice] 1#1: worker process 21 exited with code 0
+2023/07/06 03:46:44 [notice] 1#1: worker process 22 exited with code 0
+2023/07/06 03:46:44 [notice] 1#1: worker process 25 exited with code 0
+2023/07/06 03:46:44 [notice] 1#1: worker process 26 exited with code 0
+2023/07/06 03:46:44 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 03:46:44 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/07/06 03:46:44 [notice] 1#1: worker process 20 exited with code 0
+2023/07/06 03:46:44 [notice] 1#1: exit
+2023/07/06 03:46:50 [notice] 1#1: using the "epoll" event method
+2023/07/06 03:46:50 [notice] 1#1: nginx/1.25.1
+2023/07/06 03:46:50 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/06 03:46:50 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/06 03:46:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/06 03:46:50 [notice] 1#1: start worker processes
+2023/07/06 03:46:50 [notice] 1#1: start worker process 20
+2023/07/06 03:46:50 [notice] 1#1: start worker process 21
+2023/07/06 03:46:50 [notice] 1#1: start worker process 22
+2023/07/06 03:46:50 [notice] 1#1: start worker process 23
+2023/07/06 03:46:50 [notice] 1#1: start worker process 24
+2023/07/06 03:46:50 [notice] 1#1: start worker process 25
+2023/07/06 03:46:50 [notice] 1#1: start worker process 26
+2023/07/06 03:46:50 [notice] 1#1: start worker process 27
+2023/07/06 03:47:00 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 03:47:02 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 03:47:08 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 03:47:08 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 03:47:08 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 03:47:09 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 03:47:09 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 03:47:09 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 03:47:09 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 03:47:09 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 03:47:10 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 03:47:10 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 03:47:10 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 03:47:39 [error] 22#22: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 03:47:58 [error] 22#22: *16 connect() failed (113: No route to host) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 03:50:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/06 03:50:52 [notice] 20#20: gracefully shutting down
+2023/07/06 03:50:52 [notice] 23#23: gracefully shutting down
+2023/07/06 03:50:52 [notice] 20#20: exiting
+2023/07/06 03:50:52 [notice] 22#22: gracefully shutting down
+2023/07/06 03:50:52 [notice] 21#21: gracefully shutting down
+2023/07/06 03:50:52 [notice] 25#25: gracefully shutting down
+2023/07/06 03:50:52 [notice] 24#24: gracefully shutting down
+2023/07/06 03:50:52 [notice] 25#25: exiting
+2023/07/06 03:50:52 [notice] 26#26: gracefully shutting down
+2023/07/06 03:50:52 [notice] 27#27: gracefully shutting down
+2023/07/06 03:50:52 [notice] 23#23: exiting
+2023/07/06 03:50:52 [notice] 27#27: exiting
+2023/07/06 03:50:52 [notice] 20#20: exit
+2023/07/06 03:50:52 [notice] 22#22: exiting
+2023/07/06 03:50:52 [notice] 21#21: exiting
+2023/07/06 03:50:52 [notice] 24#24: exiting
+2023/07/06 03:50:52 [notice] 25#25: exit
+2023/07/06 03:50:52 [notice] 26#26: exiting
+2023/07/06 03:50:52 [notice] 23#23: exit
+2023/07/06 03:50:52 [notice] 27#27: exit
+2023/07/06 03:50:52 [notice] 22#22: exit
+2023/07/06 03:50:52 [notice] 21#21: exit
+2023/07/06 03:50:52 [notice] 24#24: exit
+2023/07/06 03:50:52 [notice] 26#26: exit
+2023/07/06 03:50:53 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/07/06 03:50:53 [notice] 1#1: worker process 20 exited with code 0
+2023/07/06 03:50:53 [notice] 1#1: worker process 24 exited with code 0
+2023/07/06 03:50:53 [notice] 1#1: worker process 26 exited with code 0
+2023/07/06 03:50:53 [notice] 1#1: worker process 27 exited with code 0
+2023/07/06 03:50:53 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 03:50:53 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/07/06 03:50:53 [notice] 1#1: worker process 23 exited with code 0
+2023/07/06 03:50:53 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 03:50:53 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/07/06 03:50:53 [notice] 1#1: worker process 22 exited with code 0
+2023/07/06 03:50:53 [notice] 1#1: worker process 25 exited with code 0
+2023/07/06 03:50:53 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 03:50:53 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/07/06 03:50:53 [notice] 1#1: worker process 21 exited with code 0
+2023/07/06 03:50:53 [notice] 1#1: exit
+2023/07/06 03:51:06 [notice] 1#1: using the "epoll" event method
+2023/07/06 03:51:06 [notice] 1#1: nginx/1.25.1
+2023/07/06 03:51:06 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/06 03:51:06 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/06 03:51:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/06 03:51:06 [notice] 1#1: start worker processes
+2023/07/06 03:51:06 [notice] 1#1: start worker process 20
+2023/07/06 03:51:06 [notice] 1#1: start worker process 21
+2023/07/06 03:51:06 [notice] 1#1: start worker process 22
+2023/07/06 03:51:06 [notice] 1#1: start worker process 23
+2023/07/06 03:51:06 [notice] 1#1: start worker process 24
+2023/07/06 03:51:06 [notice] 1#1: start worker process 25
+2023/07/06 03:51:06 [notice] 1#1: start worker process 26
+2023/07/06 03:51:06 [notice] 1#1: start worker process 27
+2023/07/06 03:51:46 [error] 20#20: *2 connect() failed (113: No route to host) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 03:51:49 [error] 20#20: *2 connect() failed (113: No route to host) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 03:51:52 [error] 20#20: *2 connect() failed (113: No route to host) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 03:51:58 [error] 23#23: *7 connect() failed (113: No route to host) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 04:05:08 [notice] 1#1: using the "epoll" event method
+2023/07/06 04:05:08 [notice] 1#1: nginx/1.25.1
+2023/07/06 04:05:08 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/06 04:05:08 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/06 04:05:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/07/06 04:05:08 [notice] 1#1: start worker processes
+2023/07/06 04:05:08 [notice] 1#1: start worker process 20
+2023/07/06 04:05:08 [notice] 1#1: start worker process 21
+2023/07/06 04:05:08 [notice] 1#1: start worker process 22
+2023/07/06 04:05:08 [notice] 1#1: start worker process 23
+2023/07/06 04:05:08 [notice] 1#1: start worker process 24
+2023/07/06 04:05:08 [notice] 1#1: start worker process 25
+2023/07/06 04:05:08 [notice] 1#1: start worker process 26
+2023/07/06 04:05:08 [notice] 1#1: start worker process 27
+2023/07/06 04:06:50 [error] 22#22: *1 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost:9000"
+2023/07/06 04:17:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/06 04:17:52 [notice] 20#20: gracefully shutting down
+2023/07/06 04:17:52 [notice] 22#22: gracefully shutting down
+2023/07/06 04:17:52 [notice] 21#21: gracefully shutting down
+2023/07/06 04:17:52 [notice] 26#26: gracefully shutting down
+2023/07/06 04:17:52 [notice] 24#24: gracefully shutting down
+2023/07/06 04:17:52 [notice] 27#27: gracefully shutting down
+2023/07/06 04:17:52 [notice] 23#23: gracefully shutting down
+2023/07/06 04:17:52 [notice] 21#21: exiting
+2023/07/06 04:17:52 [notice] 25#25: gracefully shutting down
+2023/07/06 04:17:52 [notice] 26#26: exiting
+2023/07/06 04:17:52 [notice] 22#22: exiting
+2023/07/06 04:17:52 [notice] 20#20: exiting
+2023/07/06 04:17:52 [notice] 24#24: exiting
+2023/07/06 04:17:52 [notice] 23#23: exiting
+2023/07/06 04:17:52 [notice] 24#24: exit
+2023/07/06 04:17:52 [notice] 25#25: exiting
+2023/07/06 04:17:52 [notice] 27#27: exiting
+2023/07/06 04:17:52 [notice] 22#22: exit
+2023/07/06 04:17:52 [notice] 21#21: exit
+2023/07/06 04:17:52 [notice] 20#20: exit
+2023/07/06 04:17:52 [notice] 26#26: exit
+2023/07/06 04:17:52 [notice] 23#23: exit
+2023/07/06 04:17:52 [notice] 25#25: exit
+2023/07/06 04:17:52 [notice] 27#27: exit
+2023/07/06 04:17:53 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/07/06 04:17:53 [notice] 1#1: worker process 20 exited with code 0
+2023/07/06 04:17:53 [notice] 1#1: worker process 22 exited with code 0
+2023/07/06 04:17:53 [notice] 1#1: worker process 25 exited with code 0
+2023/07/06 04:17:53 [notice] 1#1: worker process 27 exited with code 0
+2023/07/06 04:17:53 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/06 04:17:53 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/07/06 04:17:53 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/07/06 04:17:53 [notice] 1#1: worker process 21 exited with code 0
+2023/07/06 04:17:53 [notice] 1#1: worker process 23 exited with code 0
+2023/07/06 04:17:53 [notice] 1#1: worker process 24 exited with code 0
+2023/07/06 04:17:53 [notice] 1#1: worker process 26 exited with code 0
+2023/07/06 04:17:53 [notice] 1#1: exit
+2023/07/06 04:18:53 [notice] 1#1: using the "epoll" event method
+2023/07/06 04:18:53 [notice] 1#1: nginx/1.25.1
+2023/07/06 04:18:53 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/07/06 04:18:53 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2023/07/06 04:18:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576

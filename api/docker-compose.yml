@@ -16,8 +16,8 @@ services:
       - DB_DATABASE=codingcollective_db
       - DB_USERNAME=root
       - DB_PASSWORD=root
-      - REDIS_HOST=redis
-      - QUEUE_CONNECTION=redis
+    env_file:
+      - .env
 
   db:
     image: mysql:latest
@@ -39,6 +39,14 @@ services:
     image: redis:latest
     ports:
       - 6379:6379
+    environment:
+      - QUEUE_CONNECTION=redis
+      - REDIS_HOST=redis
+      - REDIS_PASSWORD=null
+      - REDIS_PORT=6379
+      - REDIS_CLIENT=predis
+    env_file:
+      - .env
 
   nginx:
     image: nginx:latest
