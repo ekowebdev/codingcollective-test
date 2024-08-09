@@ -1,6 +1,6 @@
 # Coding Collective Test
 
-## Instalasi API with Docker
+## Instalation with Docker
 
 ```
 git clone https://github.com/ekowebdev/codingcollective-test.git
